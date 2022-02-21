@@ -1,0 +1,280 @@
+* {
+    font-family: 'Inter', 'Arial', 'sans-serif';
+}
+
+.flexcontainermenu {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+#logo {
+    width: 62px;
+    height: 62px;
+    margin-right: 578px;
+    margin-left: 130px;
+    margin-top: 87px;
+
+}
+
+.menu {
+    color: #6B7280;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 35px;
+    margin-right: 50px;
+    margin-bottom: 8px;
+
+}
+
+.menu:hover {
+    text-decoration: underline;
+}
+
+#hireme {
+    width: 131px;
+    height: 52px;
+    margin-right: 130px;
+    margin-top: 92px;
+
+}
+
+.flexcontainername {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+
+
+}
+
+.flexcontainerjessica {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+    align-content: flex-start;
+
+}
+
+.flexcontainerfotoface {
+    display: flex;
+}
+
+.name {
+    color: #4338CA;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.namecreative {
+    color: #1F2937;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 72px;
+}
+
+.namecontent {
+    color: #6B7280;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.namecurrently {
+    color: #6B7280;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.hireme2 {
+    width: 131px;
+    height: 50.71px
+}
+
+.readmore {
+    width: 157px;
+    height: 50.71px
+}
+
+.fotoface {
+    width: 478px;
+    height: 525px
+}
+
+.flexcontainertagline {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.namelog1 {
+    color: #1F2937;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.namelog2 {
+    color: #3730A3;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.flexcontainerarticle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex-basis: 440px;
+    border: 1px solid blue;
+}
+
+.flexcontainergirls {
+    display: flex;
+    border: 1px solid red;
+}
+
+.fotogirls {
+
+    width: 440px;
+    height: 622px
+}
+
+.flexcontainerarticletext {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid green;
+}
+
+
+.titlemini {
+    color: #1F2937;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.titlecontent {
+    color: #6B7280;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px
+}
+
+.titleseeworks {
+    color: #3730A3;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.titleseeworks:hover {
+    text-decoration: underline;
+}
+
+.trustedby {
+    color: #9CA3AF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.titletext {
+    color: #1F2937;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.titlebox1 {
+    color: #374151;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.titlebox2 {
+    color: #9CA3AF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.titlecareers {
+    color: #1F2937;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.period {
+    color: #6B7280;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.positionmassa {
+    color: #1F2937;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.positionnext {
+    color: #6B7280;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+#contact {
+    color: #374151;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.contacttext {
+    color: #9CA3AF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}

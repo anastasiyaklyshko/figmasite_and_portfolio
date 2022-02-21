@@ -1,0 +1,134 @@
+.logo {
+    width: 143px;
+    height: 59px;
+    margin-right: 50px;
+    margin-left: 636px;
+    margin-top: 42px;
+}
+
+
+.menu,
+.name {
+    font-family: Dela Gothic One, Arial, sans-serif;
+}
+
+.menu {
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 30px;
+}
+
+.menu:hover {
+    text-decoration: underline;
+}
+
+.menu:visited {
+    text-decoration: line-through;
+}
+
+.name {
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 70px;
+}
+
+.name:first-child {
+    color: blueviolet;
+}
+
+.textname,
+.articletext1,
+#thanks,
+#copyright {
+    font-family: Comfortaa, Arial, sans-serif;
+}
+
+.textname {
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 149.8%;
+}
+
+.articletext1 {
+    color: black;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 149.8%;
+}
+
+#thanks {
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 30px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+}
+
+#copyright {
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 149.8%;
+    text-align: right;
+}
+
+.social {
+    width: 83px;
+    height: 18px;
+    opacity: 0.8;
+}
+
+.foto4 {
+    width: 88.69px;
+    height: 91.36px;
+}
+
+.blocklogo {
+    padding: 10px;
+}
+
+.blocklogo:hover .logomove {
+    animation-play-state: paused;
+}
+
+.logomove {
+    width: 143px;
+    height: 59px;
+    margin-top: 42px;
+    left: 0;
+    position: relative;
+    animation-name: logomove_;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes logomove_ {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        opacity: 0.2;
+    }
+
+    100% {
+        left: 636px;
+    }
+}
