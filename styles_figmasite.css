@@ -6,6 +6,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    width: auto;
 }
 
 
@@ -47,7 +48,7 @@
     flex-direction: row;
     align-items: stretch;
     justify-content: space-around;
-
+    width: auto;
 
 }
 
@@ -137,24 +138,30 @@
 .flexcontainerarticle {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-content: center;
-    flex-basis: 440px;
+    flex-basis: 100%;
     border: 1px solid blue;
 }
 
 .flexcontainergirls {
     display: flex;
     border: 1px solid red;
+    justify-content: space-between;
 }
 
 .fotogirls {
-
     width: 440px;
     height: 622px
 }
 
-.flexcontainerarticletext {
+.flexcontainerarticletext1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid green;
+}
+
+.flexcontainerarticletext2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -190,12 +197,46 @@
     text-decoration: underline;
 }
 
+.socialmedia {
+    background-color: #FEF2F2;
+    height: 299px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.socialmediacard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid green;
+    align-content: center;
+    justify-content: space-around;
+}
+
 .trustedby {
     color: #9CA3AF;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 28px;
+    display: flex;
+    border: 1px solid green;
+    padding-left: 24px;
+}
+
+.alphabet,
+.shopify,
+.amazon,
+.google,
+.netflix {
+    width: 157px;
+    height: 51px;
+    display: flex;
+    border: 1px solid blue;
+
 }
 
 .titletext {
